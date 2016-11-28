@@ -1,0 +1,141 @@
+body, html {
+  height: 100%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel {
+  position: relative;
+
+
+}
+.arrows {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  pointer-events: none;
+
+}
+.left-arrow {
+  position: absolute;
+  left:0;
+  top: 0;
+  bottom: 0;
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: white;
+  opacity: 0.1;
+  transition: 0.5s;
+
+}
+
+.left-arrow:hover {
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+
+.right-arrow {
+  position: absolute;
+  right:0;
+  top: 0;
+  bottom: 0;
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: white;
+  opacity: 0.1;
+  transition: 0.5s;
+
+}
+
+.right-arrow:hover {
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+
+.right-arrow {
+  position: absolute;
+  right:0;
+  top: 0;
+  bottom: 0;
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.left-arrow-button {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-right: 25px solid black;
+}
+
+
+.right-arrow-button {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 25px solid black;
+}
+
+
+
+
+.content {
+  display: inline-block;
+  width: 500px;
+  height: 250px;
+  overflow: hidden;
+
+}
+
+.slides {
+  display:flex;
+  box-sizing: border-box;
+}
+
+
+
+.photo {
+  flex: none;
+  width: 500px;
+  height: 250px;
+
+}
+
+
+.photo1 {
+  background-color: red;
+}
+
+.photo2 {
+  background-color: blue;
+}
+
+.photo3 {
+  background-color: green;
+}
+
+.photo4 {
+  background-color: yellow;
+}
+
+.photo5 {
+  background-color: grey;
+}
