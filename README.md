@@ -1,1 +1,1 @@
-# js-carousel.github-io
+# Carousel made in JavaScript
